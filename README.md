@@ -12,8 +12,7 @@
 
   ### Mijn storyboard:
   <img src="https://github.com/D0N09/FFD/assets/112881062/a147dae4-d469-477a-985f-8ff25e4d8c57" width="350px">
-
-
+  <img src="https://github.com/D0N09/FFD/assets/112881062/bf3c9b21-61d1-4e12-a3ac-5af3191faf15" width="350px">
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
