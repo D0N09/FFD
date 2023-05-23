@@ -1,24 +1,8 @@
 # Procesverslag
-**Auteur:** -jouw naam-
-
-**De opdrachten:** [opdracht 1](opdracht1/index.html) en [opdracht 2](opdracht2/index.html)
-
-
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
+**Auteur:** Donny Emming
 
 ## Bronnenlijst
-  1. -bron 1-
-  2. -bron 2-
-  3. -...-
-
-
+  1. Unibet.nl
 
 ## Opdracht 1 plan
 
@@ -26,16 +10,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na schetsen idee (voor week 2)</summary>
 
 
-  ### Je storyboard:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="storyboard voor opdracht 1">
+  ### Mijn storyboard:
+  <img src="https://github.com/D0N09/FFD/assets/112881062/a147dae4-d469-477a-985f-8ff25e4d8c57" width="350px">
+
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Css skills
+  - Nette en duidelijke Css en Html bestanden opstellen
  
 </details>
 
