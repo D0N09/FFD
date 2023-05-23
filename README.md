@@ -28,7 +28,7 @@
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
+  <img width="680" alt="unibet" src="https://github.com/D0N09/FFD/assets/112881062/78c3a692-5b1f-43b3-8244-3da33aab33a1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
