@@ -21,8 +21,6 @@
  
 </details>
 
-
-
 ## Opdracht 1 reflectie
 
 <details>
