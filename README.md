@@ -32,15 +32,13 @@
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
-
+  
+  Wat er goed ging waren de animaties, ik vond het leuk om te werken met transform.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  
+  Wat ik lastig vond was vooral werken met ::before en ::after, het werkte niet helemaal zoals ik het wilde hebben
+  
 </details>
 
 
