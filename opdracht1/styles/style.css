@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'unibetfont';
-    src: url('unibetfont.woff2');
+    src: url('./fonts/unibetfont.woff2');
 }
 
 :root {
