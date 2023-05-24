@@ -1,7 +1,7 @@
 # Procesverslag
 **Auteur:** -jouw naam-
 
-**De opdrachten:** [opdracht1](opdracht1/index.html) en [opdracht2](opdracht2/index.html)
+**De opdrachten:** [opdracht1](opdracht1/animation.html) en [opdracht2](opdracht2/index.html)
 
 
 Markdown is een simpele manier om HTML te schrijven.  
