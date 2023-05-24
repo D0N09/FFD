@@ -1,8 +1,24 @@
 # Procesverslag
-**Auteur:** Donny Emming
+**Auteur:** -jouw naam-
+
+**De opdrachten:** [opdracht 1](opdracht1/index.html) en [opdracht 2](opdracht2/index.html)
+
+
+Markdown is een simpele manier om HTML te schrijven.  
+Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
+
+Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
+
+
 
 ## Bronnenlijst
-  1. Unibet.nl
+  1. -bron 1-
+  2. -bron 2-
+  3. -...-
+
+
 
 ## Opdracht 1 plan
 
@@ -10,16 +26,20 @@
   <summary>uitwerken na schetsen idee (voor week 2)</summary>
 
 
-  ### Mijn storyboard:
-  <img src="https://github.com/D0N09/FFD/assets/112881062/a147dae4-d469-477a-985f-8ff25e4d8c57" width="350px">
-  <img src="https://github.com/D0N09/FFD/assets/112881062/bf3c9b21-61d1-4e12-a3ac-5af3191faf15" width="350px">
+  ### Je storyboard:
+  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="storyboard voor opdracht 1">
+
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - Css skills
-  - Nette en duidelijke Css en Html bestanden opstellen
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
  
 </details>
+
+
 
 ## Opdracht 1 reflectie
 
@@ -28,17 +48,19 @@
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img width="680" alt="unibet" src="https://github.com/D0N09/FFD/assets/112881062/78c3a692-5b1f-43b3-8244-3da33aab33a1">
+  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  
-  Wat er goed ging waren de animaties, ik vond het leuk om te werken met transform.
+  Korte omschrijving met plaatje(s)
+
+  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+
 
   ### Dit was lastig/Is niet gelukt:
-  
-  Wat ik lastig vond was vooral werken met ::before en ::after, het werkte niet helemaal zoals ik het wilde hebben
-  
+  Korte omschrijving met plaatje(s)
+
+  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 </details>
 
 
