@@ -24,8 +24,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je storyboard:
-  <img src="https://github.com/D0N09/FFD/assets/112881062/cc04f317-44a3-44ba-bab3-549d42b3617d" width="375px" alt="storyboard voor opdracht 1">
-  <img src="https://github.com/D0N09/FFD/assets/112881062/98c86596-07f8-49f5-a971-fc8b62380084" width="375px" alt="storyboard voor opdracht 1">
+  <img src="https://github.com/D0N09/FFD/assets/112881062/cc04f317-44a3-44ba-bab3-549d42b3617d" width="200px" alt="storyboard voor opdracht 1">
+  <img src="https://github.com/D0N09/FFD/assets/112881062/98c86596-07f8-49f5-a971-fc8b62380084" width="200px" alt="storyboard voor opdracht 1">
 
   
   ### Je ambitie: 
