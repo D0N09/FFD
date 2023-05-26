@@ -49,8 +49,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  
+  <img width="680" alt="unibet" src="https://github.com/D0N09/FFD/assets/112881062/68b89b69-07cd-4800-89e9-603b7d494f80">
 
 
   ### Dit was lastig/Is niet gelukt:
