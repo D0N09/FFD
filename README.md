@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** DONNY EMMING
 
 **De opdrachten:** [opdracht1](opdracht1/animation.html) en [opdracht2](opdracht2/index.html)
 
