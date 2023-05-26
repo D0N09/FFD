@@ -30,10 +30,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Steeds leukere Animations kunnen maken.
+  - Goede en nette Javascript kunnen schrijven.
  
 </details>
 
