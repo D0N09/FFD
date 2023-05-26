@@ -56,7 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Werken met animations vind ik best moeilijk, hoe alles werkt en wat je er allemaal mee kan is mij niet heel bekend.
   Daarom lukte ook niet alles wat ik graag wilde hebben. Ik heb geprobeert om meerder vakjes te krijgen zodat je elke keer
-  een andere uitkomst hebt als je aan de hendel trekt maar dat kwam ik helaas niet uit.
+  een andere uitkomst hebt als je aan de hendel trekt maar daar kwam ik helaas niet uit.
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 </details>
