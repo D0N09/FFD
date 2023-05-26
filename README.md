@@ -48,7 +48,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Ik vond werken met css heel leuk om te doen en het ging voor mij gevoel best goed, ondanks ik niet heel goed ben met programmeren vind ik dat dit een mooi resultaat is.
   
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 
