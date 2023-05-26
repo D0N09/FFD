@@ -31,7 +31,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - Steeds leukere Animations kunnen maken.
-  - Goede en nette Javascript kunnen schrijven.
+  - HTML codes kunnen schrijven zonder een div en id, want ik wil hier graag steeds beter in worden.
  
 </details>
 
