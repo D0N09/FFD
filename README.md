@@ -44,14 +44,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
+  <img width="420" alt="unibet" src="https://github.com/D0N09/FFD/assets/112881062/68b89b69-07cd-4800-89e9-603b7d494f80" alt="uitkomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
   
-  <img width="680" alt="unibet" src="https://github.com/D0N09/FFD/assets/112881062/68b89b69-07cd-4800-89e9-603b7d494f80">
-
+  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
