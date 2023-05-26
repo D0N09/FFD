@@ -14,10 +14,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Bronnenlijst
-  1. -bron 1-
-  2. -bron 2-
-  3. -...-
-
+  1. Unibet.nl
 
 
 ## Opdracht 1 plan
@@ -27,9 +24,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je storyboard:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="storyboard voor opdracht 1">
+  <img src="https://github.com/D0N09/FFD/assets/112881062/cc04f317-44a3-44ba-bab3-549d42b3617d" width="375px" alt="storyboard voor opdracht 1">
+  <img src="https://github.com/D0N09/FFD/assets/112881062/98c86596-07f8-49f5-a971-fc8b62380084" width="375px" alt="storyboard voor opdracht 1">
 
-
+  
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - punt 1
