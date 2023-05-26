@@ -70,12 +70,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je ontwerp:
+  <img src="https://github.com/D0N09/FFD/assets/112881062/d4e4e820-fff6-46d0-aace-d46c24a4a20d" width="375px" alt="ontwerp opdracht 2">
   <img src="https://github.com/D0N09/FFD/assets/112881062/ee810350-001c-4a6b-bc6c-dff96b1514bf" width="375px" alt="ontwerp opdracht 2">
-  <img src="https://github.com/D0N09/FFD/assets/112881062/61db7e7d-41cd-4c9a-b2be-fd2ee14c6ba4" width="375px" alt="ontwerp opdracht 2">
+  <img src="https://github.com/D0N09/FFD/assets/112881062/61db7e7d-41cd-4c9a-b2be-fd2ee14c6ba4" width="175px" alt="ontwerp opdracht 2">
 
- 
-
-  
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
