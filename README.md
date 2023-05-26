@@ -48,12 +48,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik vond werken met css heel leuk om te doen en het ging voor mij gevoel best goed, ondanks ik niet heel goed ben met programmeren vind ik dat dit een mooi resultaat is.
+  Ik vond werken met css heel leuk om te doen en het ging voor mij gevoel best goed, 
+  ondanks ik niet heel goed ben met programmeren vind ik dat dit een mooi resultaat is.
   
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Werken met animations vind ik best moeilijk, hoe alles werkt en wat je er allemaal mee kan is mij niet heel bekend.
+  Daarom lukte ook niet alles wat ik graag wilde hebben. Ik heb geprobeert om meerder vakjes te krijgen zodat je elke keer
+  een andere uitkomst hebt als je aan de hendel trekt maar dat kwam ik helaas niet uit.
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 </details>
