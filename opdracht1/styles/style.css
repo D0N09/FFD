@@ -1,106 +1,152 @@
-* {
-    box-sizing:border-box;  
-}
+/* CSS Document */
 
+/*********/
+/* FONTS */
+/*********/
 @font-face {
     font-family: 'unibetfont';
     src: url('../fonts/unibetfont.woff2');
 }
 
-:root {
-    --color-text:green;
-    --color-background:#fff; 
-    --color-handle: black;   
+
+
+
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
 }
 
-  @media (prefers-color-scheme:dark) {
-    :root {
-        --color-background:#000;
-        --color-handle: white; 
-    }
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* light modus */
+	--color-text: white;
+    --text-bg: green;
+    --color-body: white;
+    --color-handle: black; 
 }
+
+@media (prefers-color-scheme:dark) {
+    :root {
+    /* Dark modus*/
+    --color-body: black;
+    --color-handle: white; 
+}}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
 
 body {
-    background-color: var(--color-background);
-    min-height:100dvh;
-    margin:0;
 	display:grid;
-	justify-content: center;
+
+    font-size:clamp(1em, 12vmin, 16em);
+
+    background-color: var(--color-body);
+    color: var(--color-text);
+    font-family: 'unibetfont';
 }
 
-h1{
-    margin:0;
+/* H1 */
+
+h1 {
     display: flex;
-    align-items: center;
-    gap: 0.5em;
-    height: 10em;
-    width: 25em;
+    justify-content: center;
+
     overflow: hidden;
-    color: var(--color-backrgound);
+    height: 1em;
 
-    margin-top: 10em;
+    gap: 0.2em;
 }
 
-h1 span:nth-of-type(1) {
-    animation-name: rolling;
-    animation-duration: 3s;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'unibetfont';
-    font-size:clamp(4em, 10vmin, 16em); /*EM*/
-    background-color: var(--color-text);
-    width: 2em;
-    height: 2em;
-    color: white;
-}
-
-
-h1 span:nth-of-type(2) {
-    animation-name: rolling;
-    animation-duration: 3s;
-    animation-delay: .5s;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'unibetfont';
-    font-size:clamp(4em, 10vmin, 16em); /*EM*/
-    background-color: var(--color-text);
-    width: 2em;
-    height: 2em;
-    color: white;
-}
-
-
-h1 span:nth-of-type(3) {
-    animation-name: rolling;
-    animation-duration: 3s;
-    animation-delay: .9s;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'unibetfont';
-    font-size:clamp(4em, 10vmin, 16em); /*EM*/
-    background-color: var(--color-text);
-    width: 2em;
-    height: 2em;
-    color: white;
-}
+/* H1 AFTER (POOK) */
 
 h1::after {
-    content: "";
+    content: '';
 
-    animation-name: handle;
-    animation-duration: 1s;
+    width: 0.1em;
+    height: 1em;
 
-    height: 10em;
-    width: 0.8em;
     background-color: var(--color-handle);
 }
 
+/* POOK HOVER */
+
+h1:hover::after {
+    animation-name: trekken;
+    animation-duration: 0.7s;
+}
+
+/* SPAN 1 */
+
+span:nth-of-type(1) {
+    text-align: center;
+
+    background-color: var(--text-bg);
+
+    width: 1em;
+    height: 1em;
+}
+
+/* HOVER SPAN 1 */
+
+h1:hover span:nth-of-type(1) {
+    animation-name: rolling;
+    animation-duration: 3s;
+}
+
+/* SPAN 2 */
+
+span:nth-of-type(2) {
+    text-align: center;
+
+    background-color: var(--text-bg);
+
+    width: 1em;
+    height: 1em;
+}
+
+/* HOVER SPAN 2 */
+
+h1:hover span:nth-of-type(2) {
+    animation-name: rolling;
+    animation-duration: 3s;
+    animation-delay: .5s;
+}
+
+/* SPAN 3 */
+
+span:nth-of-type(3) {
+    text-align: center;
+
+    background-color: var(--text-bg);
+
+    width: 1em;
+    height: 1em;
+}
+
+/* HOVER SPAN 3 */
+
+h1:hover span:nth-of-type(3) {
+    animation-name: rolling;
+    animation-duration: 3s;
+    animation-delay: .9s;
+}
+
+/* ANIMATION LETTERS */
 
 @keyframes rolling {
     0% {
@@ -111,15 +157,19 @@ h1::after {
     }
 }
 
+/* ANIMATION POOK */
 
-@keyframes handle {
-    0% {
-        transform:translatey(0);
+@keyframes trekken {
+    0%{
+      /* perspective zorgt voor 3d effect */
+      transform: perspective(3em) rotateX(-10deg);
+      animation-timing-function:ease-out;
     }
-    70% {
-        transform:translatey(60%);
+    50% {
+      transform: perspective(3em) rotateX(-55deg);
+      animation-timing-function:ease-in;
     }
     100% {
-        transform:translatey(0);
+      transform: perspective(3em) rotateX(-10deg);
     }
-}
+  }
