@@ -9,7 +9,6 @@
 			 url('../fonts/eenfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-
 }
 
 
@@ -23,9 +22,6 @@
   box-sizing:border-box;  
 }
 
-button:not(:disabled), summary {
-	cursor: pointer;
-}
 
 
 
@@ -35,9 +31,17 @@ button:not(:disabled), summary {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	/* light modus */
+	--color-text:#01001b;
+	--color-background:white;
+}
+
+@media (prefers-color-scheme:dark) {
+    :root {
+    /* Dark modus*/
+	--color-text:white;
+    --color-background:#01001b;
+    }
 }
 
 
@@ -47,11 +51,189 @@ button:not(:disabled), summary {
 /****************/
 /* JOUW STYLING */
 /****************/
+
 body {
-  font-family:eenfont, sans-serif;
-  color:var(--color-text);
-  background-color:var(--color-background);
+    background: var(--color-background);
+    /* clamp(min, val, max) */
+    font-size: clamp(0.5rem, 1.1vw, 1.1rem); 
 }
 
-/* jouw code */
+/* HEADER */
 
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: var(--color-text);
+    font-family: sans-serif;
+}
+
+header h1::before {
+    content: '🎮';
+}
+
+header h1::after {
+    content: '🕹️';
+}
+
+header:hover h1 {
+    color: var(--color-text);
+    font-family: sans-serif;
+
+    animation-name: bewegen;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bewegen {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+/* FILTER */
+
+main section {
+    text-align: center;
+}
+
+main label {
+    color: var(--color-text);
+}
+
+ul.people li:not(.survival) {
+    display:none;
+}
+  
+ul.animals li:not(.battleroyale) {
+    display:none;
+}
+
+/* EERSTE SECTION (ul) */
+
+main section:nth-of-type(1) h2 {
+    display: flex;
+    justify-content: center;
+
+    color: var(--color-text);
+    font-family: sans-serif;
+
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+main section ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19.2em, 1fr));
+    list-style:none;
+    padding-top: 1em;
+    padding-left: 0;
+}
+
+main section ul li {
+    display:grid;
+    justify-content: center;
+    cursor:grab;
+}
+
+li.sortable-ghost {
+    opacity:.50;
+}
+
+main section ul li::after {
+    content: 'Play Now';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+/* IMAGES */
+
+main section ul li img {
+    width: 19em;
+    padding-bottom: 1em;
+    border-radius: 2em;
+}
+
+/* TWEEDE SECTION (UL) */
+
+main section:nth-of-type(2) h2 {
+    display: flex;
+    justify-content: center;
+
+    color: var(--color-text);
+    font-family: sans-serif;
+
+    margin-bottom: 2em;
+}
+
+main section:nth-of-type(2) ul:empty::after {
+    content: '+ add your favorite games';
+    color: var(--color-text);
+}
+
+/* DERDE SECTION */
+
+main section:nth-of-type(3) h2 {
+    display: flex;
+    justify-content: center;
+
+    color: var(--color-text);
+    font-family: sans-serif;
+
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+main section:nth-of-type(3) article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28.5em, 1fr));
+    gap: 1em;
+}
+
+main section:nth-of-type(3) iframe {
+    width: 100%;
+    aspect-ratio: 4/3;
+    border: none;
+}
+
+/* FOOTER NAVBAR */
+
+footer {
+    padding-top: 5em;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    background-color: #101461;
+
+    list-style:none;
+    padding-inline-start: 0;
+}
+
+footer nav ul li {
+    display: flex;
+}
+
+footer nav ul li img {
+    width: 4em;
+}
+
+footer nav ul li img:hover {
+    background-color: orange;
+}

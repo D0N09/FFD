@@ -1,21 +1,88 @@
-<!doctype html>
-<html lang="nl">
-	
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Opdracht 2: Interactie galore - Frontend voor Designers</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>games</title>
 </head>
-
 <body>
-	<h1>Opdracht 2</h1>
 
-	<script defer src="scripts/script.js"></script>
+    <header>
+
+        <h1>PLAYGAMES</h1>
+    
+    </header>
+
+    <main>
+
+        <section>
+
+			<h2>LIBRARY</h2>
+
+            <input type="radio" name="filter" value="all" id="filter-all" checked>
+            <label for="filter-all">all</label>
+
+            <input type="radio" name="filter" value="people" id="filter-survival">
+            <label for="filter-survival">Survival</label>
+
+            <input type="radio" name="filter" value="animals" id="filter-royale">
+            <label for="filter-royale">Battle Royale</label>
+
+            <ul>
+                <li class="survival"><img src="./images/gtav.jpg" alt=""></li>
+
+                <li class="survival"><img src="./images/league.jpg" alt=""></li>
+                
+                <li class="survival"><img src="./images/subnautica.jpg" alt=""></li>
+
+                <li class="battleroyale"><img src="./images/fallguys.jpg" alt=""></li>
+
+                <li class="battleroyale"><img src="./images/fortnite.jpg" alt=""></li>
+
+                <li class="battleroyale"><img src="./images/warzone.jpg" alt=""></li>
+
+                <li class="survival"><img src="./images/sims4.jpg" alt=""></li>
+
+                <li class="battleroyale"><img src="./images/fifa23.jpg" alt=""></li>
+            </ul>
+
+        </section>
+
+        <section>
+            <h2>FAVORITE</h2>
+            <ul></ul>
+        </section>
+
+		<section>
+
+			<h2>GAMEPLAYS</h2>
+
+			<article>
+				<iframe src="https://www.youtube.com/embed/_yzqAEKmn1w"></iframe>
+				<iframe src="https://www.youtube.com/embed/oCTgwaHOtBg"></iframe>
+				<iframe src="https://www.youtube.com/embed/i9HM8vMakzc"></iframe>
+			</article>
+
+		</section>
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><img src="./images/home.png" alt=""></li>
+                <li><img src="./images/games.png" alt=""></li>
+                <li><img src="./images/profile.png" alt=""></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+    <script src="./scripts/script.js"></script>
+    
 </body>
-	
 </html>
