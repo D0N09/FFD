@@ -45,7 +45,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshot(s):
   <img width="420" alt="unibet" src="https://github.com/D0N09/FFD/assets/112881062/68b89b69-07cd-4800-89e9-603b7d494f80" alt="versie 1">
-  <img width="720" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/0890ef04-977d-4b9a-8301-f327340e21e7" alt="versie 2">
+  <img width="420" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/81ca8941-4e6e-4fcc-986a-c3def81fd27e" alt="versie 2">
 
 
 
