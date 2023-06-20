@@ -132,11 +132,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Bevinding 3:
-   
+  Ik kon geen items uit de favorietenlijst verwijderen/draggen, dus ik moest gaan kijken naar andere oplossingen.
+
+  <img width="260" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/875e137f-0831-4eda-9ef1-4dd1f9d37fb4">
+
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Een paar manieren die ik tegen ben gekomen heb ik vergeleken om te kijken welke manier het
+  beste zou passen in plaats van mijn oude oplossing.
 
+  <img width="319" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/ce79e5f0-f72b-474f-9c44-db3ae9f842e6">
 
 
   ### Bevinding 4:
