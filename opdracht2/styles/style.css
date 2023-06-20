@@ -34,6 +34,7 @@
 	/* light modus */
 	--color-text:#01001b;
 	--color-background:white;
+    --font-family: sans-serif;
 }
 
 @media (prefers-color-scheme:dark) {
@@ -66,7 +67,7 @@ header {
 
 header h1 {
     color: var(--color-text);
-    font-family: sans-serif;
+    font-family: var(--font-family);
 }
 
 header h1::before {
@@ -79,7 +80,7 @@ header h1::after {
 
 header:hover h1 {
     color: var(--color-text);
-    font-family: sans-serif;
+    font-family: var(--font-family);
 
     animation-name: bewegen;
     animation-duration: 2s;
@@ -106,6 +107,7 @@ main section {
 
 main label {
     color: var(--color-text);
+    font-family: var(--font-family);
 }
 
 ul.people li:not(.survival) {
@@ -123,7 +125,7 @@ main section:nth-of-type(1) h2 {
     justify-content: center;
 
     color: var(--color-text);
-    font-family: sans-serif;
+    font-family: var(--font-family);
 
     padding-top: 1em;
     margin-bottom: 2em;
@@ -137,6 +139,11 @@ main section ul {
     padding-left: 0;
 }
 
+main section:nth-of-type(1) ul:empty::before {
+    content: 'Remove Items';
+    color: var(--color-text);
+}
+
 main section ul li {
     display:grid;
     justify-content: center;
@@ -147,8 +154,8 @@ li.sortable-ghost {
     opacity:.50;
 }
 
-main section ul li::after {
-    content: 'Play Now';
+main section:nth-of-type(1) ul li::after {
+    content: 'Buy Now';
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
@@ -170,13 +177,79 @@ main section:nth-of-type(2) h2 {
     justify-content: center;
 
     color: var(--color-text);
-    font-family: sans-serif;
+    font-family: var(--font-family);
 
     margin-bottom: 2em;
 }
 
 main section:nth-of-type(2) ul:empty::after {
     content: '+ add your favorite games';
+    color: var(--color-text);
+}
+
+/* GAMES ARTIKELEN */
+
+main section:nth-of-type(2) ul li:nth-of-type(1)::after {
+    content: 'ARTIKEL 1';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(2)::after {
+    content: 'ARTIKEL 2';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(3)::after {
+    content: 'ARTIKEL 3';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(4)::after {
+    content: 'ARTIKEL 4';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(5)::after {
+    content: 'ARTIKEL 5';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(6)::after {
+    content: 'ARTIKEL 6';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(7)::after {
+    content: 'ARTIKEL 7';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2) ul li:nth-of-type(8)::after {
+    content: 'ARTIKEL 8';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
     color: var(--color-text);
 }
 
@@ -187,53 +260,18 @@ main section:nth-of-type(3) h2 {
     justify-content: center;
 
     color: var(--color-text);
-    font-family: sans-serif;
+    font-family: var(--font-family);
 
     padding-top: 2em;
     margin-bottom: 2em;
 }
 
-main section:nth-of-type(3) article {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28.5em, 1fr));
-    gap: 1em;
-}
-
-main section:nth-of-type(3) iframe {
-    width: 100%;
-    aspect-ratio: 4/3;
+main section:nth-of-type(3) article li iframe {
     border: none;
 }
 
-/* FOOTER NAVBAR */
-
-footer {
-    padding-top: 5em;
-}
-
-footer nav ul {
-    display: flex;
-    justify-content: space-around;
-
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    left: 0;
-    background-color: #101461;
-
-    list-style:none;
-    padding-inline-start: 0;
-}
-
-footer nav ul li {
-    display: flex;
-}
-
-footer nav ul li img {
-    width: 4em;
-}
-
-footer nav ul li img:hover {
-    background-color: orange;
+.swiper-button-prev,
+.swiper-button-next {
+  border:none;
+  background:none;
 }
