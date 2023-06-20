@@ -70,7 +70,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Daarom lukte ook niet alles wat ik graag wilde hebben. Ik heb geprobeert om meerdere vakjes te krijgen zodat je elke keer
   een andere uitkomst hebt als je aan de hendel trekt maar daar kwam ik helaas niet uit.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  <img width="149" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/9f52327a-662f-4b7f-bf43-bcd8c8af8575">
+
 </details>
 
 
