@@ -50,6 +50,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Ik vond werken met css heel leuk om te doen en het ging voor mij gevoel best goed, 
   ondanks ik niet heel goed ben met programmeren vind ik dat dit een mooi resultaat is.
+
+  Als feedback kreeg ik dat mijn animatie nog niet responsive was, de animatie maar 1x afspeelde en ik
+  alle spans in één keer kan aanroepen omdat zij dezelfde style hebben.
   
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 
