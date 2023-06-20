@@ -87,12 +87,12 @@ h1::after {
 
 h1:hover::after {
     animation-name: trekken;
-    animation-duration: 0.7s;
+    animation-duration: 1s;
 }
 
-/* SPAN 1 */
+/* SPAN 1, 2 en 3 */
 
-span:nth-of-type(1) {
+span {
     text-align: center;
 
     background-color: var(--text-bg);
@@ -108,34 +108,12 @@ h1:hover span:nth-of-type(1) {
     animation-duration: 3s;
 }
 
-/* SPAN 2 */
-
-span:nth-of-type(2) {
-    text-align: center;
-
-    background-color: var(--text-bg);
-
-    width: 1em;
-    height: 1em;
-}
-
 /* HOVER SPAN 2 */
 
 h1:hover span:nth-of-type(2) {
     animation-name: rolling;
     animation-duration: 3s;
     animation-delay: .5s;
-}
-
-/* SPAN 3 */
-
-span:nth-of-type(3) {
-    text-align: center;
-
-    background-color: var(--text-bg);
-
-    width: 1em;
-    height: 1em;
 }
 
 /* HOVER SPAN 3 */
@@ -172,4 +150,4 @@ h1:hover span:nth-of-type(3) {
     100% {
       transform: perspective(3em) rotateX(-10deg);
     }
-  }
+}
