@@ -179,17 +179,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken bij afronden opdracht (voor week 8)</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitkomst opdracht 2">
+  <img width="599" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/7d5864c2-67a7-4bdb-8b2d-f3a21d57debf">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Als ik terug kijk naar mijn skills en wat ik heb neergezet ben ik heel tevreden.
+  Wat vooral goed ging was het coderen van de sortable list, dat had ik moeilijker verwacht maar dat viel wel mee.
+  Ik zag heel erg op tegen het werken met javascript omdat ik hier niet heel goed in ben. Uiteindelijk is het in
+  mijn ogen best goed gedaan. Dit heb ik dus geleerd, dat ik niet moet denken maar gewoon coderen en aan de slag
+  gaan met javascript.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img width="422" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/da1d65d5-d71f-45ba-850c-3cc00afb7de6">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Het bleek toch zo te zijn dat CSS moeilijker is dan ik had gedacht. Ik keek op tegen javascript maar dat is mij beter
+  afgelopen dan de CSS. Wat best lastig was vond ik het positioneren van bepaalde elementen en het vorm geven.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  <img width="410" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/1f648528-391d-42f7-be7e-f7b5c75734b9">
+
 </details>
