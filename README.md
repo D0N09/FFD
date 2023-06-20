@@ -61,8 +61,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Wat ik heb geleerd is vooral dat je niet moet opgeven met code schrijven, ik liep vaak tegen
   problemen aan en toen had ik er geen zin meer in. Maar door steeds te proberen kwam ik
   uiteindelijk met het resultaat dat ik graag wilde hebben.
-  
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+
+  <img width="392" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/36227633-1b7e-41d5-98dc-42584615e8d4">
+
 
   ### Dit was lastig/Is niet gelukt:
   Werken met animations vind ik best moeilijk, hoe alles werkt en wat je er allemaal mee kan is mij niet heel bekend.
