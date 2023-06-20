@@ -108,16 +108,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De sorteer knopjes paste niet bij mijn scherm.
 
   <img width="612" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/94ab127e-f57a-4cce-95c7-a7067a7be1ce">
-  Versie 1
-
-  <img width="240" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/4329027f-14cc-45c2-94dd-d78ed85c46cb">
-  Versie 2
 
 
   #### oplossing:
   Door te kijken naar andere mogelijkheden/oplossingen kon ik mijn werk vergelijken met mijn ideeën.
   Hierdoor kwam ik nieuwe manieren tegen die mij hielpen een beter beeld te krijgen op mijn werk.
 
+  <img width="240" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/4329027f-14cc-45c2-94dd-d78ed85c46cb">
 
 
   ### Bevinding 2:
