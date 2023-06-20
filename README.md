@@ -105,9 +105,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Bevinding 1:
-  Mijn site was niet compleet omdat ik vond dat de style niet helemaal perfect was.
+  De sorteer knopjes paste niet bij mijn scherm.
+
+  <img width="612" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/94ab127e-f57a-4cce-95c7-a7067a7be1ce">
+  Versie 1
 
   <img width="240" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/4329027f-14cc-45c2-94dd-d78ed85c46cb">
+  Versie 2
 
 
   #### oplossing:
@@ -117,15 +121,42 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Bevinding 2:
-  Ik miste een animatie in mijn site. 
+  Toen ik een favorieten list had aangemaakt wilde ik dat je elk item maximaal maar 1x erin kan draggen.
+  Het probleem was dat je zo onbeperkt items erin kon draggen en dat wilde ik niet.
+
+  <img width="662" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/777e85a8-7899-4747-8a2b-050fe94dbd1b">
+
+
+  #### oplossing:
+  Door de favorietenlijst te veranderen voor een Shopping Cart list, nu kon je items van de winkellijst draggen naar
+  je winkelwagen en andersom (uit je winkelwagen terug de shoplist in).
+
+  <img width="798" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/9672c8b3-cfd5-46de-9b52-aee836e6ae3e">
+
+
+  ### Bevinding 3:
+   
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
 
 
-  ### Bevinding 3:
-  ...
+  ### Bevinding 4:
+  
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+
+
+
+  ### Bevinding 5:
+  Toen ik naar het beoordelingsformulier keek zag ik dat ik nog een animatie miste.
+
+  #### oplossing:
+  Hoe ik dit heb opgelost is door te kijken naar ideeën die ik kan toepassen aan mijn site om een leuke
+  animatie die past bij mijn scherm toe te passen.
+  
 </details>
 
 
