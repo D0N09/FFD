@@ -87,7 +87,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="https://github.com/D0N09/FFD/assets/112881062/ee810350-001c-4a6b-bc6c-dff96b1514bf" width="406px" alt="ontwerp opdracht 2">
   <img src="https://github.com/D0N09/FFD/assets/112881062/61db7e7d-41cd-4c9a-b2be-fd2ee14c6ba4" width="108px" alt="ontwerp opdracht 2">
 
-
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - Goede en nette Javascript codes kunnen schrijven, zoals 
@@ -106,15 +105,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Mijn site was niet compleet omdat ik vond dat de style niet helemaal perfect was.
+
+  <img width="240" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/4329027f-14cc-45c2-94dd-d78ed85c46cb">
+
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Door te kijken naar andere mogelijkheden/oplossingen kon ik mijn werk vergelijken met mijn ideeën.
+  Hierdoor kwam ik nieuwe manieren tegen die mij hielpen een beter beeld te krijgen op mijn werk.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik miste een animatie in mijn site. 
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
