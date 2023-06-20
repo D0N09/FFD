@@ -45,7 +45,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshot(s):
   <img width="420" alt="unibet" src="https://github.com/D0N09/FFD/assets/112881062/68b89b69-07cd-4800-89e9-603b7d494f80" alt="versie 1">
-  <img width="420" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/81ca8941-4e6e-4fcc-986a-c3def81fd27e" alt="versie 2">
+  <img width="570" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/81ca8941-4e6e-4fcc-986a-c3def81fd27e" alt="versie 2">
+  linker is versie 1 en de rechter is versie 2 (eind resultaat)
 
 
 
@@ -54,13 +55,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ondanks ik niet heel goed ben met programmeren vind ik dat dit een mooi resultaat is.
 
   Als feedback kreeg ik dat mijn animatie nog niet responsive was, de animatie maar 1x afspeelde en ik
-  alle spans in één keer kan aanroepen omdat zij dezelfde style hebben.
+  alle spans in één keer kan aanroepen omdat zij dezelfde style hebben. Deze verbeterpunten heb ik
+  verbeterd en is mijn gelukkig goed verlopen.
+
+  Wat ik heb geleerd is vooral dat je niet moet opgeven met code schrijven, ik liep vaak tegen
+  problemen aan en toen had ik er geen zin meer in. Maar door steeds te proberen kwam ik
+  uiteindelijk met het resultaat dat ik graag wilde hebben.
   
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
 
   ### Dit was lastig/Is niet gelukt:
   Werken met animations vind ik best moeilijk, hoe alles werkt en wat je er allemaal mee kan is mij niet heel bekend.
-  Daarom lukte ook niet alles wat ik graag wilde hebben. Ik heb geprobeert om meerder vakjes te krijgen zodat je elke keer
+  Daarom lukte ook niet alles wat ik graag wilde hebben. Ik heb geprobeert om meerdere vakjes te krijgen zodat je elke keer
   een andere uitkomst hebt als je aan de hendel trekt maar daar kwam ik helaas niet uit.
 
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
