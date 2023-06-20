@@ -145,11 +145,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Bevinding 4:
-  
+  Waar ik tegen aan liep was het maken van een carousel. Ik wilde verschillende video's/fotos op mijn pagina laten zien
+  doormiddel van een carousel, zodat de gebruiker meer interactie kan hebben met de pagina. Het probleem was dus dat ik
+  het niet voor elkaar kreeg om een carousel te maken.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  De oplossing is niet heel goed maar het werkt en daar gaat het om. Ik wilde graag de video's wat groter hebben maar
+  daar kwam ik niet uit. Maar de carousel is gelukt en die werkt goed en past bij mijn pagina.
 
+  <img width="321" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/35f28c19-eff7-46e3-a1af-d003d4c0abe1">
 
 
   ### Bevinding 5:
@@ -157,7 +161,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### oplossing:
   Hoe ik dit heb opgelost is door te kijken naar ideeën die ik kan toepassen aan mijn site om een leuke
-  animatie die past bij mijn scherm toe te passen.
+  animatie die past bij mijn scherm toe te passen. De animatie is speels en dat past bij mijn site.
+  De animatie word steeds kleiner en groter als je erover heen hoverd.
+
+  <img width="164" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/a9db1ef8-2ca8-48f1-9a58-0532389462bf">
+
+  <img width="251" alt="image" src="https://github.com/D0N09/FFD/assets/112881062/2621b8ad-6fb3-4b20-9b01-d6f947927101">
+
   
 </details>
 
