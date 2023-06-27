@@ -133,6 +133,8 @@ main section ul {
     overflow: scroll;
     padding: 0;
     gap: 1em;
+
+    list-style: none;
 }
 
 main section:nth-of-type(2) ul {
@@ -177,7 +179,7 @@ main section ul li.not_draggable::after {
     
     /* ELEMENTEN MET ABSOLUTE KOMEN BOVEN OF ONDER ELKAAR */
     position: absolute;
-    left: 0;
+    left: 2em;
     bottom: 2em;
 
     color: var(--color-text);
