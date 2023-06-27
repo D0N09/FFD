@@ -2,28 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="./styles/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-
-    <title>games</title>
+    <title>GAMES</title>
 </head>
 <body>
 
-    <header>
-
-        <h1>PLAYGAMES</h1>
-    
-    </header>
-
     <main>
 
-        <section>
+        <!-- HEADER -->
 
-			<h2>SHOP NEW GAMES 🏷️</h2>
+        <header>
+            <h1>PLAYGAMES</h1>
+        </header>
 
+        <!-- DIV FOR RADIO BUTTONS -->
+
+        <div>
             <input type="radio" name="filter" value="all" id="filter-all" checked>
             <label for="filter-all">all</label>
 
@@ -32,63 +27,62 @@
 
             <input type="radio" name="filter" value="animals" id="filter-royale">
             <label for="filter-royale">Battle Royale</label>
+        </div>
 
-            <ul>
-                <li class="survival"><img src="./images/gtav.jpg" alt=""></li>
+        <!-- DRAG AND DROP -->
 
-                <li class="survival"><img src="./images/league.jpg" alt=""></li>
-                
-                <li class="survival"><img src="./images/subnautica.jpg" alt=""></li>
-
-                <li class="battleroyale"><img src="./images/fallguys.jpg" alt=""></li>
-
-                <li class="battleroyale"><img src="./images/fortnite.jpg" alt=""></li>
-
+        <section>
+            <h2>SHOP GAMES 🏷️</h2>
+            <ul> 
+                <li class="not_draggable"><img src="./images/gtav.jpg" alt=""></li>
                 <li class="battleroyale"><img src="./images/warzone.jpg" alt=""></li>
-
+                <li class="survival"><img src="./images/subnautica.jpg" alt=""></li>
+                <li class="battleroyale"><img src="./images/fallguys.jpg" alt=""></li>
+                <li class="survival"><img src="./images/league.jpg" alt=""></li>
+                <li class="battleroyale"><img src="./images/fortnite.jpg" alt=""></li>
                 <li class="survival"><img src="./images/sims4.jpg" alt=""></li>
-
                 <li class="battleroyale"><img src="./images/fifa23.jpg" alt=""></li>
-            </ul>
 
+                <li class="survival"><img src="./images/ark.jpg" alt=""></li>
+                <li class="battleroyale"><img src="./images/battlefield.jpg" alt=""></li>
+                <li class="survival"><img src="./images/dyinglight.jpg" alt=""></li>
+                <li class="battleroyale"><img src="./images/smashbros.jpg" alt=""></li>
+
+                <li class="survival"><img src="./images/evil.jpg" alt=""></li>
+                <li class="survival"><img src="./images/harvestmoon.jpg" alt=""></li>
+                <li class="survival"><img src="./images/immortal.jpg" alt=""></li>
+                <li class="battleroyale"><img src="./images/mariokart.jpg" alt=""></li>
+
+                <li class="survival"><img src="./images/kirby.jpg" alt=""></li>
+                <li class="survival"><img src="./images/pokemon.jpg" alt=""></li>
+                <li class="survival"><img src="./images/splatoon.jpg" alt=""></li>
+                <li class="survival"><img src="./images/skylanders.jpg" alt=""></li>
+            </ul>
         </section>
+
+        <!-- LEGE DRAG AND DROP -->
 
         <section>
             <h2>SHOPPING CART 🛒</h2>
             <ul></ul>
         </section>
 
-		<section>
+        <section>
+            <h2>NEW GAMES</h2>
+            <ul>
+                <li><img src="./images/evil.jpg" alt=""></li>
+                <li><img src="./images/harvestmoon.jpg" alt=""></li>
+                <li><img src="./images/immortal.jpg" alt=""></li>
+                <li><img src="./images/mariokart.jpg" alt=""></li>
 
-			<h2>GAMEPLAYS</h2>
-
-			<article class="swiper">
-
-				<button class="swiper-button-prev"></button>
-				<button class="swiper-button-next"></button>
-
-				<ul class="swiper-wrapper">
-
-					<li class="swiper-slide"><iframe src="https://www.youtube.com/embed/_yzqAEKmn1w"></iframe></li>
-					<li class="swiper-slide"><iframe src="https://www.youtube.com/embed/oCTgwaHOtBg"></iframe></li>
-					<li class="swiper-slide"><iframe src="https://www.youtube.com/embed/i9HM8vMakzc"></iframe></li>
-
-					<li class="swiper-slide"><iframe src="https://www.youtube.com/embed/NM_kSMaWxik"></iframe></li>
-					<li class="swiper-slide"><iframe src="https://www.youtube.com/embed/SDO0IsVmG_o"></iframe></li>
-
-				</ul>
-
-			</article>
-			
-		</section>
+                <li><img src="./images/kirby.jpg" alt=""></li>
+                <li><img src="./images/pokemon.jpg" alt=""></li>
+                <li><img src="./images/splatoon.jpg" alt=""></li>
+                <li><img src="./images/skylanders.jpg" alt=""></li>
+            </ul>
+        </section>
 
     </main>
-
-    <footer>
-
-    </footer>
-
-	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>

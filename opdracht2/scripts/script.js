@@ -13,34 +13,12 @@ console.log("yo, deze script werkt");
 
 // Variabele gemaakt voor list en favolist.
 var list = document.querySelector('main section:nth-of-type(1) ul');
-var cart = document.querySelector('main section:nth-of-type(2) ul')
+var cart = document.querySelector('main section:nth-of-type(2) ul');
 
 // Variabele gemaakt voor de filter opties (all, survival en royale).
 var optionAll = document.querySelector("#filter-all");
 var optionsurvival = document.querySelector("#filter-survival");
 var optionroyale = document.querySelector("#filter-royale");
-
-
-// CAROUSEL
-
-
-// Variabele gemaakt voor de carousel.
-var options = {
-    // De richting van de carousel (rechts/links).
-    direction: 'horizontal',
-    // Hoelang de transitie duurt.
-    speed: 1000,
-  
-    // Navigatie (arrows).
-    navigation: {
-    // Roep de next button aan
-    nextEl: '.swiper-button-next',
-    // Roep de prev button aan
-    prevEl: '.swiper-button-prev'
-}};
-  
-// Navigeren van de carousel
-const swiper = new Swiper('.swiper', options);
 
 
 // FILTER
@@ -81,7 +59,11 @@ new Sortable(list, {
     },
     // De tijd hoe lang de animatie duurt om verplaatst te worden.
     // Hoe hoger de tijd hoe langzamer de animatie gaat.
-    animation: 150
+    animation: 150,
+    // "Sort false" zorgt ervoor dat je niet kan sorteren.
+    sort: false,
+    // filtered zorgt ervoor dat de class .not_draggable niet draggable is //
+    filter: '.not_draggable',
 });
 
 

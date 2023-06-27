@@ -3,6 +3,7 @@
 /*********/
 /* FONTS */
 /*********/
+
 @font-face {
 	font-family: 'eenfont';
 	src: url('../fonts/eenfont.woff2') format('woff2'),
@@ -13,23 +14,20 @@
 
 
 
-
-
 /**************/
 /* CSS REMEDY */
 /**************/
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
 
 
 
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
 :root {
 	/* light modus */
 	--color-text:#01001b;
@@ -47,67 +45,102 @@
 
 
 
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
 body {
-    background: var(--color-background);
-    /* clamp(min, val, max) */
-    font-size: clamp(0.5rem, 1.1vw, 1.1rem); 
+    background-color: var(--color-background);
+    /* MET CLAMP KAN JE AANGEVEN WAT HET MINIMUM EN MAXIMUM 
+    GROTE IS VAN DE ELEMENTEN DIE JE WILT LATEN MEE SCALEN */
+    font-size: clamp(0.7rem, 1.2vw, 3rem); 
 }
 
-/* HEADER */
+/* MAIN */
 
-header {
+main {
+    overflow: hidden;
     text-align: center;
 }
 
-header h1 {
+/* HEADER HOOFDSTUK 1 */
+
+main header h1 {
     color: var(--color-text);
     font-family: var(--font-family);
 }
 
 header h1::before {
-    content: '🎮';
+	content: '🎮';
 }
 
 header h1::after {
-    content: '🕹️';
+	content: '🕹️';
 }
 
 header:hover h1 {
+	color: var(--color-text);
+	font-family: var(--font-family);
+
+	animation-name: groot-klein;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes groot-klein {
+	0% {
+			transform: scale(0);
+	}
+	50% {
+			transform: scale(1.5);
+	}
+	100% {
+			transform: scale(0);
+	}
+}
+
+/* MAIN HOOFDSTUK 2 */
+
+main section h2 {
     color: var(--color-text);
     font-family: var(--font-family);
 
-    animation-name: bewegen;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes bewegen {
-    0% {
-        transform: scale(0);
-    }
-    50% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(0);
-    }
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 /* FILTER */
 
-main section {
-    text-align: center;
+main div {
+    padding-top: 2em;
 }
 
-main label {
+main div input {
+    margin: 0;
+}
+
+main div label {
     color: var(--color-text);
     font-family: var(--font-family);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* UL  */
+
+main section ul {
+    display: flex;
+    overflow: scroll;
+    padding: 0;
+    gap: 1em;
+}
+
+main section:nth-of-type(2) ul {
+    height: 17.5em;
+}
+
+main section ul::-webkit-scrollbar{
+    display: none;
 }
 
 ul.people li:not(.survival) {
@@ -118,160 +151,89 @@ ul.animals li:not(.battleroyale) {
     display:none;
 }
 
-/* EERSTE SECTION (ul) */
+main section ul li {
+    /* ELEMENTEN DIE RELATIVE GEPOSITIONEERD ZIJN,
+    KUNNEN BEWEGEN TERWIJL ZE IN FLOW BLIJVEN */
+    position: relative;
+}
 
-main section:nth-of-type(1) h2 {
-    display: flex;
-    justify-content: center;
+/* SECTION 3 */
+
+main section:nth-of-type(3) ul li {
+    animation: autoscroll 25s linear infinite;
+}
+
+@keyframes autoscroll {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -370%;
+    }
+}
+
+main section ul li.not_draggable::after {
+    content: 'COMING SOON';
+    
+    /* ELEMENTEN MET ABSOLUTE KOMEN BOVEN OF ONDER ELKAAR */
+    position: absolute;
+    left: 0;
+    bottom: 2em;
 
     color: var(--color-text);
     font-family: var(--font-family);
-
-    padding-top: 1em;
-    margin-bottom: 2em;
 }
 
-main section ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(19.2em, 1fr));
-    list-style:none;
-    padding-top: 1em;
-    padding-left: 0;
-}
-
-main section:nth-of-type(1) ul:empty::before {
-    content: 'Remove Items';
-    color: var(--color-text);
-}
-
-main section ul li {
-    display:grid;
-    justify-content: center;
-    cursor:grab;
-}
-
-li.sortable-ghost {
-    opacity:.50;
-}
-
-main section:nth-of-type(1) ul li::after {
-    content: 'Buy Now';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
-
-/* IMAGES */
+/* IMG */
 
 main section ul li img {
     width: 19em;
-    padding-bottom: 1em;
-    border-radius: 2em;
+    font-size: clamp(0.8rem, 1.2vw, 2rem); 
 }
 
-/* TWEEDE SECTION (UL) */
-
-main section:nth-of-type(2) h2 {
-    display: flex;
-    justify-content: center;
-
-    color: var(--color-text);
-    font-family: var(--font-family);
-
-    margin-bottom: 2em;
+main section ul li.not_draggable img {
+    opacity: 0.2;
 }
 
-main section:nth-of-type(2) ul:empty::after {
-    content: '+ add your favorite games';
-    color: var(--color-text);
-}
 
-/* GAMES ARTIKELEN */
+@media (width > 35em) {
 
-main section:nth-of-type(2) ul li:nth-of-type(1)::after {
-    content: 'ARTIKEL 1';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
+    main {
+        display: grid;
+        /* DE GRID-TEMPLATE-COLUMNS EIGENSCHAP SPECIFICEERT 
+        HET AANTAL KOLOMMEN IN EEN RASTER-LAYOUT */
+        grid-template-columns: 1fr 1fr; /* 1 FRICTIE */
+    }
 
-main section:nth-of-type(2) ul li:nth-of-type(2)::after {
-    content: 'ARTIKEL 2';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
+    main section ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* ALIGN-CONTENT SPECIFICEERT HOE FLEXLIJNEN WORDEN VERDEELD */
+        /* ELMENTEN WORDEN NAAR DE START VAN DE CONTAINER GEPLAATST */
+        align-content: start;
+        /* DEFAULT IS STRETCH (ALLE RUIMTE VULLEN)*/
+        gap: unset;
+        height: 55em;
+    }
 
-main section:nth-of-type(2) ul li:nth-of-type(3)::after {
-    content: 'ARTIKEL 3';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
+    main section:nth-of-type(2) ul {
+        height: 55em;
+    }
 
-main section:nth-of-type(2) ul li:nth-of-type(4)::after {
-    content: 'ARTIKEL 4';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
+    main section:nth-of-type(3) {
+        display: none;
+    }
 
-main section:nth-of-type(2) ul li:nth-of-type(5)::after {
-    content: 'ARTIKEL 5';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
+    main section ul li {
+        padding-bottom: 1em;
+    }
 
-main section:nth-of-type(2) ul li:nth-of-type(6)::after {
-    content: 'ARTIKEL 6';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
+    main section:nth-of-type(3) ul li {
+        animation: unset;
+    }
 
-main section:nth-of-type(2) ul li:nth-of-type(7)::after {
-    content: 'ARTIKEL 7';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
-
-main section:nth-of-type(2) ul li:nth-of-type(8)::after {
-    content: 'ARTIKEL 8';
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    color: var(--color-text);
-}
-
-/* DERDE SECTION */
-
-main section:nth-of-type(3) h2 {
-    display: flex;
-    justify-content: center;
-
-    color: var(--color-text);
-    font-family: var(--font-family);
-
-    padding-top: 2em;
-    margin-bottom: 2em;
-}
-
-main section:nth-of-type(3) article li iframe {
-    border: none;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  border:none;
-  background:none;
+    main section ul li img {
+        width: 19em;
+        font-size: clamp(0.4rem, 1.2vw, 2rem); 
+    }
 }
